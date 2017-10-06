@@ -1,0 +1,56 @@
+/*Definindo Formato de caracteres do css */
+@charset "UTF-8";
+*
+{
+	outline: none;
+}
+html,body
+{
+	height: 100%;
+	width: 100%;
+	color:#555;
+}
+
+header div.nav-bar div.lgo
+{
+	float: left;
+	font-family: 'Pacifico';
+	font-weight: normal;
+	font-size: 20pt;
+	color:#4F87FB;
+	text-shadow: 1px 0px 0px rgba(0,0,0,.7);
+}
+header div.nav-bar nav.main
+{
+	float: right;
+}
+header div.nav-bar nav.main button
+{
+	border:0;
+	font-family: 'Raleway';
+	font-weight: bold;
+	cursor: pointer;
+	background: transparent;
+	transition: all .26s ease-in;
+	border-bottom: 0px solid #ccc;
+	margin-left:  12px;
+}
+header div.nav-bar nav.main button:hover
+{
+	border-bottom: 3px solid #ccc;
+}
+header div.nav-bar nav.main button:nth-child(3)
+{
+	margin-left: 40px; 
+}
+header div.nav-bar nav.main button:nth-last-child(1)
+{
+	background: #4F87FB;
+	padding: 12px;
+	margin-left: 40px;
+	border-radius: 12px;
+}
+header div.nav-bar nav.main button:nth-last-child(1):hover
+{
+	background: #3498db;
+}

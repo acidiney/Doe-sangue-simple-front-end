@@ -1,0 +1,119 @@
+/*Importando templet*/
+@import "templet.css";
+
+/*Estilos do header*/
+div.container
+{
+  height: 100%;
+  width: 100%;
+
+}
+header
+{
+  width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+    background: url(../img/blood.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position:right 430%;
+    height: 100%;
+}
+header div.nav-bar
+{
+  height: 30%;
+}
+main
+{
+    width: 400px;
+}
+main h3
+{
+  font-family: 'Raleway';
+  font-size: 18pt;
+  color:#333;
+}
+main small
+{
+  font-family: 'Raleway';
+  font-size: 10pt;
+  padding-left: 12px;
+  text-align: justify;
+  border-left: 2px solid #ccc;
+}
+main button
+{
+  background: #4F87FB;
+  padding: 12px;
+  border:0;
+  margin-top: 10px;
+  border-radius: 12px;
+}
+.search
+{
+
+  margin: auto;
+  margin-top: 5%;
+  width: 70%;
+  text-align: center;
+  background: #4F87FB;
+  padding: 30px;
+  border-radius: 60px;
+  color: #fff;
+}
+.search input
+{
+  border:0;
+  background: transparent;
+  border-bottom: 2px solid #6093FB;
+  padding: 10px;
+  color:#fff;
+  transition: .26s linear;
+}
+.search input:focus, .search input:hover
+{
+  border-bottom: 2px solid #ccc;
+}
+.search button
+{
+  border:0;
+  background-color: #fff;
+    padding: 10px;
+    border-radius: 60px;
+    float: right;
+    cursor: pointer;
+    transition: .26s linear;
+}
+.search button:hover
+{
+ color:#fff;
+  background-color: #4F87FB;
+}
+/*//////////////////CONTENT///////////////*/
+.content
+{
+    background-color: #f1f3f7;
+    -webkit-clip-path: polygon(0% 6%, 100% 0%, 100% 96%, 0% 100%);
+    padding: 60px 0;
+    height: 60%;
+}
+/*////////////////////// MEDIA QUERY//////////////////////////////*/
+@media(min-width:1369px)
+{
+    header
+  {
+      width: 100%;
+      padding: 100px;
+      box-sizing: border-box;
+      background: url(../img/blood.png);
+      background-repeat: no-repeat;
+      background-size: 32% !important;
+      background-position:right 430%;
+      height: 100%;
+  }
+  .search
+  {
+
+    margin-top: 10%;
+  }
+}
